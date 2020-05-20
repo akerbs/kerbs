@@ -69,7 +69,6 @@
 }
 
 .Home-img {
-  width: 100%;
   zoom: 0.75;
   max-width: 300px;
   border-radius: 100%;
@@ -99,7 +98,7 @@
 
 .Item-img {
   box-shadow: 3px 3px 17px #ccc;
-  width: 100%;
+
   zoom: 0.93;
 }
 
