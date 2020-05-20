@@ -1,0 +1,178 @@
+/*************************************** media-styles */
+
+@media screen and (max-width: 1100px) {
+  /* .App {
+    max-width: 800px;
+  } */
+  .Home-content {
+    margin: 80px 50px 190px 50px;
+  }
+
+  .Home-text-highlight {
+    font-size: 30px;
+  }
+  .Home-img {
+    min-width: 300px;
+  }
+  .Contact-content {
+    margin: 120px 70px 179px 30px;
+  }
+
+  .Contact-content-my-contacts ul li {
+    font-size: 17px;
+  }
+
+  .Contact-content-my-contacts ul li a,
+  .Contact-content-my-contacts ul li span {
+    font-size: 18px;
+  }
+  .Contact-content-google-map {
+    max-width: 403.5px;
+  }
+}
+/************************************************** 800 */
+@media screen and (max-width: 800px) {
+  .App {
+    padding-top: 20px;
+  }
+
+  .App-header {
+    grid-template-areas:
+      "logo ."
+      "nav media";
+    grid-template-columns: 2fr 1fr;
+    /* padding: 40px 0; */
+  }
+
+  .App-logo {
+    grid-area: logo;
+  }
+  .App-nav {
+    grid-area: nav;
+    margin-left: 0;
+  }
+  .header-social-media {
+    grid-area: media;
+  }
+  .header-social-icon {
+    zoom: 0.5;
+  }
+  .Home-content {
+    margin: 60px 30px 180px 30px;
+  }
+
+  .Home-text-highlight {
+    font-size: 24px;
+  }
+  .Home-img {
+    min-width: 200px;
+  }
+  .Portfolio-content {
+    margin-top: 20px;
+  }
+
+  .Contact-content {
+    grid-template-columns: 1fr;
+    margin: 10px 120px 169px 120px;
+  }
+  .Contact-content-my-contacts {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .Contact-content-my-contacts ul {
+    line-height: 2.5em;
+  }
+
+  .Contact-content-my-contacts ul li {
+    font-size: 16px;
+  }
+
+  .Contact-content-my-contacts ul li a,
+  .Contact-content-my-contacts ul li span {
+    font-size: 17px;
+  }
+
+  .Contact-content-google-map {
+    max-width: 390px;
+  }
+}
+/************************************************** 600 */
+@media screen and (max-width: 600px) {
+  .App {
+    padding: 0;
+  }
+
+  .App-header {
+    grid-template-areas:
+      "logo"
+      "nav "
+      "media";
+    grid-template-columns: 1fr;
+    padding: 5px 0;
+  }
+
+  .App-logo-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .App-nav {
+    justify-content: center;
+    /* margin-right: 30px; */
+  }
+
+  .header-social-media {
+    justify-content: center;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+  }
+
+  .header-link {
+    font-style: 12px;
+  }
+
+  .Home-content {
+    grid-template-columns: 1fr;
+    margin: 40px 20px 170px 20px;
+  }
+  .Home-img-container {
+    display: flex;
+    justify-content: center;
+  }
+  .Home-img {
+    width: 55%;
+    max-width: 200px;
+    min-width: 150px;
+  }
+
+  .Home-text-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .Home-text-highlight {
+    font-size: 25px;
+  }
+
+  .Item-img-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Item-text {
+    margin: 20px;
+  }
+
+  .highlight-1 {
+    font-size: 35px;
+  }
+
+  .Contact-content {
+    margin: 10px 30px 159px 30px;
+  }
+
+  .Contact-content-google-map {
+    max-width: 370px;
+  }
+}
