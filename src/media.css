@@ -100,7 +100,10 @@
 /************************************************** 600 */
 @media screen and (max-width: 600px) {
   .App {
-    padding: 0;
+    padding-top: 0;
+  }
+  .App-logo {
+    zoom: 0.5;
   }
 
   .App-header {
