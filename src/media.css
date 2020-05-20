@@ -158,6 +158,10 @@
     justify-content: center;
   }
 
+  .Item-img {
+    zoom: 0.5;
+  }
+
   .Item-text {
     margin: 20px;
   }
