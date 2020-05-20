@@ -13,6 +13,7 @@
   }
   .Home-img {
     min-width: 300px;
+    width: 100%;
   }
   .Contact-content {
     margin: 120px 70px 179px 30px;
@@ -141,7 +142,8 @@
     justify-content: center;
   }
   .Home-img {
-    width: 55%;
+    width: 100%;
+    zoom: 0.55;
     max-width: 200px;
     min-width: 150px;
   }
