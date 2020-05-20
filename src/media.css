@@ -122,7 +122,7 @@
 
   .App-nav {
     justify-content: center;
-    letter-spacing: 0;
+
     /* margin-right: 30px; */
   }
 
@@ -134,6 +134,7 @@
 
   .header-link {
     font-style: 12px;
+    letter-spacing: 0;
   }
 
   .Home-content {
