@@ -122,6 +122,7 @@
 
   .App-nav {
     justify-content: center;
+    letter-spacing: 0;
     /* margin-right: 30px; */
   }
 
