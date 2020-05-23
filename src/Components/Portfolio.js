@@ -31,6 +31,8 @@ export default function Portfolio() {
           <a
             href="https://chat-with-socket-anker.herokuapp.com/"
             onclick="this.blur()"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Check it out
           </a>
@@ -63,6 +65,8 @@ export default function Portfolio() {
           <a
             href="https://todo-list-with-socket-anker.herokuapp.com/"
             onclick="this.blur()"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Check it out
           </a>
@@ -97,6 +101,8 @@ export default function Portfolio() {
           <a
             href="https://shop-restful-spa-anker.herokuapp.com/"
             onclick="this.blur()"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Check it out
           </a>
@@ -132,6 +138,8 @@ export default function Portfolio() {
           <a
             href="https://shop-admin-area-anker.herokuapp.com/"
             onclick="this.blur()"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Check it out
           </a>
@@ -167,6 +175,8 @@ export default function Portfolio() {
           <a
             href="https://mern-url-shortener-anker.herokuapp.com/"
             onclick="this.blur()"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Check it out
           </a>
