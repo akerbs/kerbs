@@ -8,19 +8,19 @@ export default function Contact() {
         <ul>
           <li>
             email:
-            <a href="mailto:anker2702@gmail.com" onclick="this.blur()">
+            <a href="mailto:anker2702@gmail.com" onClick="this.blur()">
               anker2702@gmail.com
             </a>
           </li>
           <li>
             skype:
-            <a href="skype:draft23" onclick="this.blur()">
+            <a href="skype:draft23" onClick="this.blur()">
               draft23
             </a>
           </li>
           <li>
             phone:
-            <a href="tel:+4915207350279" onclick="this.blur()">
+            <a href="tel:+4915207350279" onClick="this.blur()">
               0152 0735 0279
             </a>
           </li>
