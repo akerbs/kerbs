@@ -9,7 +9,8 @@ export default function Home() {
       </div>
       <div class="Home-text-container">
         <span class="Home-text-highlight">
-          Hi, I’m Anatol Kerbs. I’m a Web Developer and Designer.
+          Hi there! <br /> My name is Anatol Kerbs and I’m a Web Developer and
+          Designer.
         </span>
         <br />
         <br />

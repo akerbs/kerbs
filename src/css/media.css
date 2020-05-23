@@ -19,7 +19,7 @@
   }
 
   .Contact-content-my-contacts ul li {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .Contact-content-my-contacts ul li a {
@@ -84,11 +84,10 @@
   }
 
   .Contact-content-my-contacts ul li {
-    font-size: 16px;
+    font-size: 17px;
   }
 
-  .Contact-content-my-contacts ul li a,
-  .Contact-content-my-contacts ul li span {
+  .Contact-content-my-contacts ul li a {
     font-size: 17px;
   }
 

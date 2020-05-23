@@ -7,19 +7,19 @@ export default function Contact() {
       <div className="Contact-content-my-contacts">
         <ul>
           <li>
-            email:
+            Email:
             <a href="mailto:anker2702@gmail.com" onClick="this.blur()">
               anker2702@gmail.com
             </a>
           </li>
           <li>
-            skype:
+            Skype:
             <a href="skype:draft23" onClick="this.blur()">
               draft23
             </a>
           </li>
           <li>
-            phone:
+            Phone:
             <a href="tel:+4915207350279" onClick="this.blur()">
               0152 0735 0279
             </a>
