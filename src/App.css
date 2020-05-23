@@ -166,15 +166,13 @@
   letter-spacing: 1px;
 }
 
-.Contact-content-my-contacts ul li a,
-.Contact-content-my-contacts ul li span {
+.Contact-content-my-contacts ul li a {
   text-decoration: none;
   color: #000;
   font-size: 21px;
   transition: 0.3s;
 }
-.Contact-content-my-contacts ul li a:hover,
-.Contact-content-my-contacts ul li span:hover {
+.Contact-content-my-contacts ul li a:hover {
   color: #bfd6d9;
   transition: all 1s ease 0s;
 }

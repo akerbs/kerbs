@@ -27,10 +27,15 @@ export default function Header() {
         <a
           href="https://www.linkedin.com/in/akerbs/"
           class="header-social-icon"
+          onclick="this.blur()"
         >
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
-        <a href="https://github.com/akerbs" class="header-social-icon">
+        <a
+          href="https://github.com/akerbs"
+          class="header-social-icon"
+          onclick="this.blur()"
+        >
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
       </div>

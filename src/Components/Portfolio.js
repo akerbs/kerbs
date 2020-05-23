@@ -28,7 +28,10 @@ export default function Portfolio() {
           </div>
           <br />
           <br />
-          <a href="https://chat-with-socket-anker.herokuapp.com/">
+          <a
+            href="https://chat-with-socket-anker.herokuapp.com/"
+            onclick="this.blur()"
+          >
             Check it out
           </a>
           <br />
@@ -57,7 +60,10 @@ export default function Portfolio() {
           <div>Create a one global todo list for multiple users.</div>
           <br />
           <br />
-          <a href="https://todo-list-with-socket-anker.herokuapp.com/">
+          <a
+            href="https://todo-list-with-socket-anker.herokuapp.com/"
+            onclick="this.blur()"
+          >
             Check it out
           </a>
           <br />
@@ -88,7 +94,10 @@ export default function Portfolio() {
           </div>
           <br />
           <br />
-          <a href="https://shop-restful-spa-anker.herokuapp.com/">
+          <a
+            href="https://shop-restful-spa-anker.herokuapp.com/"
+            onclick="this.blur()"
+          >
             Check it out
           </a>
           <br />
@@ -120,7 +129,10 @@ export default function Portfolio() {
           </div>
           <br />
           <br />
-          <a href="https://shop-admin-area-anker.herokuapp.com/">
+          <a
+            href="https://shop-admin-area-anker.herokuapp.com/"
+            onclick="this.blur()"
+          >
             Check it out
           </a>
           <br />
@@ -152,7 +164,10 @@ export default function Portfolio() {
           </div>
           <br />
           <br />
-          <a href="https://mern-url-shortener-anker.herokuapp.com/">
+          <a
+            href="https://mern-url-shortener-anker.herokuapp.com/"
+            onclick="this.blur()"
+          >
             Check it out
           </a>
           <br />
