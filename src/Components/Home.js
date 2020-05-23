@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../banner.jpg";
+import banner from "../img/banner.jpg";
 
 export default function Home() {
   return (
