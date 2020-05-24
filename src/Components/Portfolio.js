@@ -83,7 +83,7 @@ export default function Portfolio() {
           <img src={item3} alt="" className="Item-img" />
         </div>
         <div class="Item-text">
-          <span className="highlight-1">Online chop SPA</span>
+          <span className="highlight-1">Store SPA</span>
           <br />
           <div>2020</div>
           <br />
@@ -119,7 +119,7 @@ export default function Portfolio() {
           <img src={item4} alt="" className="Item-img" />
         </div>
         <div class="Item-text">
-          <span className="highlight-1">Online shop - Admin area</span>
+          <span className="highlight-1">Store - Admin area</span>
           <br />
           <div>2020</div>
           <br />
