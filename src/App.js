@@ -8,6 +8,7 @@ import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 import Contact from "./Components/Contact";
 
+window.onload = window.focus();
 function App() {
   return (
     <BrowserRouter>
