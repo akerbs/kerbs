@@ -28,8 +28,6 @@ export default function Header() {
           href="https://www.linkedin.com/in/akerbs/"
           className="header-social-icon"
           onClick="this.blur()"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
@@ -37,8 +35,6 @@ export default function Header() {
           href="https://github.com/akerbs"
           className="header-social-icon"
           onClick="this.blur()"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
