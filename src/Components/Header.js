@@ -11,23 +11,23 @@ export default function Header() {
         <img src={logo} className="App-logo" alt="logo" />
       </div>
       <nav className="App-nav">
-        <Link to="/" class="header-link">
+        <Link to="/" className="header-link">
           home
         </Link>
 
-        <Link to="/portfolio" class="header-link">
+        <Link to="/portfolio" className="header-link">
           portfolio
         </Link>
 
-        <Link to="/contact" class="header-link">
+        <Link to="/contact" className="header-link">
           contact
         </Link>
       </nav>
-      <div class="header-social-media">
+      <div className="header-social-media">
         <a
           href="https://www.linkedin.com/in/akerbs/"
-          class="header-social-icon"
-          onclick="this.blur()"
+          className="header-social-icon"
+          onClick="this.blur()"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -35,8 +35,8 @@ export default function Header() {
         </a>
         <a
           href="https://github.com/akerbs"
-          class="header-social-icon"
-          onclick="this.blur()"
+          className="header-social-icon"
+          onClick="this.blur()"
           target="_blank"
           rel="noopener noreferrer"
         >

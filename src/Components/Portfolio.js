@@ -12,7 +12,7 @@ export default function Portfolio() {
         <div className="Item-img-container">
           <img src={item1} alt="" className="Item-img" />
         </div>
-        <div class="Item-text">
+        <div className="Item-text">
           <span className="highlight-1">Online chat</span>
           <br />
           <div>2020</div>
@@ -30,7 +30,7 @@ export default function Portfolio() {
           <br />
           <a
             href="https://chat-with-socket-anker.herokuapp.com/"
-            onclick="this.blur()"
+            onClick="this.blur()"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -48,7 +48,7 @@ export default function Portfolio() {
         <div className="Item-img-container">
           <img src={item2} alt="" className="Item-img" />
         </div>
-        <div class="Item-text">
+        <div className="Item-text">
           <span className="highlight-1">Todo list</span>
           <br />
           <div>2020</div>
@@ -64,7 +64,7 @@ export default function Portfolio() {
           <br />
           <a
             href="https://todo-list-with-socket-anker.herokuapp.com/"
-            onclick="this.blur()"
+            onClick="this.blur()"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -82,7 +82,7 @@ export default function Portfolio() {
         <div className="Item-img-container">
           <img src={item3} alt="" className="Item-img" />
         </div>
-        <div class="Item-text">
+        <div className="Item-text">
           <span className="highlight-1">Store SPA</span>
           <br />
           <div>2020</div>
@@ -100,7 +100,7 @@ export default function Portfolio() {
           <br />
           <a
             href="https://shop-restful-spa-anker.herokuapp.com/"
-            onclick="this.blur()"
+            onClick="this.blur()"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -118,7 +118,7 @@ export default function Portfolio() {
         <div className="Item-img-container">
           <img src={item4} alt="" className="Item-img" />
         </div>
-        <div class="Item-text">
+        <div className="Item-text">
           <span className="highlight-1">Store - Admin area</span>
           <br />
           <div>2020</div>
@@ -137,7 +137,7 @@ export default function Portfolio() {
           <br />
           <a
             href="https://shop-admin-area-anker.herokuapp.com/"
-            onclick="this.blur()"
+            onClick="this.blur()"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -155,7 +155,7 @@ export default function Portfolio() {
         <div className="Item-img-container">
           <img src={item5} alt="" className="Item-img" />
         </div>
-        <div class="Item-text">
+        <div className="Item-text">
           <span className="highlight-1">URL Shortener</span>
           <br />
           <div>2020</div>
@@ -174,7 +174,7 @@ export default function Portfolio() {
           <br />
           <a
             href="https://mern-url-shortener-anker.herokuapp.com/"
-            onclick="this.blur()"
+            onClick="this.blur()"
             target="_blank"
             rel="noopener noreferrer"
           >
