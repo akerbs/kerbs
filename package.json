@@ -1,5 +1,6 @@
 {
-  "name": "samurai",
+  "name": "Kerbs",
+  "author": "Anatol Kerbs <anker2702@gmail.com>",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

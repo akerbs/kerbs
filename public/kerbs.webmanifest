@@ -1,6 +1,7 @@
 {
   "name": "Kerbs",
   "short_name": "Kerbs",
+  "description": "Anatol Kerbs PWA",
   "icons": [
     {
       "src": "favicon.ico",
