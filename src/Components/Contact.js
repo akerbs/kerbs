@@ -14,7 +14,7 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              anker2702@gmail.com
+              anker2702@gmx.de
             </a>
           </li>
           <li>
