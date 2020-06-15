@@ -9,7 +9,7 @@ export default function Contact() {
           <li>
             Email:
             <a
-              href="mailto:anker2702@gmail.com"
+              href="mailto:anker2702@gmx.de"
               onClick="this.blur()"
               target="_blank"
               rel="noopener noreferrer"
