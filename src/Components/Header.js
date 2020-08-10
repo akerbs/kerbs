@@ -23,6 +23,7 @@ export default function Header() {
           contact
         </Link>
       </nav>
+
       <div className="header-social-media">
         <a
           href="https://www.linkedin.com/in/akerbs/"

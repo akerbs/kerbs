@@ -1,5 +1,6 @@
 import React from "react";
-import SimpleMap from "./GoogleMap";
+// import SimpleMap from "./GoogleMap";
+import MyGoogleMap from "./MyGoogleMap";
 
 export default function Contact() {
   return (
@@ -42,7 +43,8 @@ export default function Contact() {
         </ul>
       </div>
       <div className="Contact-content-google-map">
-        <SimpleMap />
+        {/* <SimpleMap /> */}
+        <MyGoogleMap />
       </div>
     </div>
   );
