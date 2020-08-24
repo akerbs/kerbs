@@ -149,7 +149,8 @@
   }
 
   .Home-content {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     margin: 40px 20px 170px 20px;
   }
 
