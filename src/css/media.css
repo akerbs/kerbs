@@ -11,11 +11,14 @@
   .Home-text-highlight {
     font-size: 30px;
   }
+  .Home-img-container {
+    min-width: 300px;
+  }
+
   .Home-img {
     min-width: 300px;
-    width: 100%;
-    height: 100%;
   }
+
   .Contact-content {
     margin: 120px 70px 179px 30px;
   }
@@ -65,11 +68,14 @@
   .Home-text-highlight {
     font-size: 24px;
   }
+  .Home-img-container {
+    min-width: 200px;
+  }
+
   .Home-img {
     min-width: 200px;
-    width: 100%;
-    height: 100%;
   }
+
   .Portfolio-content {
     margin-top: 20px;
   }
@@ -142,14 +148,15 @@
     grid-template-columns: 1fr;
     margin: 40px 20px 170px 20px;
   }
+
   .Home-img-container {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    width: 150px;
   }
   .Home-img {
-    zoom: 0.5;
-    width: 100%;
-    height: 100%;
+    width: 150px;
   }
 
   .Home-text-container {
