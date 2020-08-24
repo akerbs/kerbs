@@ -13,10 +13,12 @@
   }
   .Home-img-container {
     min-width: 300px;
+    height: auto;
   }
 
   .Home-img {
     min-width: 300px;
+    height: auto;
   }
 
   .Contact-content {
@@ -70,10 +72,12 @@
   }
   .Home-img-container {
     min-width: 200px;
+    height: auto;
   }
 
   .Home-img {
     min-width: 200px;
+    height: auto;
   }
 
   .Portfolio-content {
@@ -154,9 +158,11 @@
     justify-content: center;
     margin: 0 auto;
     width: 150px;
+    height: auto;
   }
   .Home-img {
     width: 150px;
+    height: auto;
   }
 
   .Home-text-container {
