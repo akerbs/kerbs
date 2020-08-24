@@ -157,7 +157,9 @@
   .Home-img-container {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    overflow: hidden;
+    border-radius: 100%;
     width: 200px;
     height: 200px;
     padding: 0;
@@ -166,6 +168,10 @@
     width: 200px;
     height: 200px;
     padding: 0;
+    transition: 1s;
+  }
+  .Home-img:hover {
+    transform: scale(1.2);
   }
 
   .Home-text-container {
