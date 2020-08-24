@@ -12,13 +12,13 @@
     font-size: 30px;
   }
   .Home-img-container {
-    min-width: 300px;
-    height: auto;
+    /* min-width: 300px; */
+    /* height: auto; */
   }
 
   .Home-img {
-    min-width: 300px;
-    height: auto;
+    /* min-width: 300px; */
+    /* height: auto; */
   }
 
   .Contact-content {
@@ -37,7 +37,7 @@
   }
 }
 /************************************************** 800 */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 807px) {
   .App {
     padding-top: 20px;
   }
@@ -71,13 +71,13 @@
     font-size: 24px;
   }
   .Home-img-container {
-    min-width: 200px;
-    height: auto;
+    width: 220px;
+    height: 220px;
   }
 
   .Home-img {
-    min-width: 200px;
-    height: auto;
+    width: 220px;
+    height: 220px;
   }
 
   .Portfolio-content {
@@ -159,16 +159,12 @@
     justify-content: center;
     margin: 0 auto;
     width: 200px;
-    min-width: 200px;
-    max-width: 200px;
-    height: auto;
+    height: 200px;
     padding: 0;
   }
   .Home-img {
     width: 200px;
-    min-width: 200px;
-    max-width: 200px;
-    height: auto;
+    height: 200px;
     padding: 0;
   }
 
