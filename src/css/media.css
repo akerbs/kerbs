@@ -151,22 +151,22 @@
   .Home-content {
     display: flex;
     flex-direction: column;
-    margin: 40px 20px 170px 20px;
+    margin: 0px 20px 170px 20px;
+    padding-top: 40px;
   }
 
   .Home-img-container {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     padding: 0;
   }
   .Home-img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     padding: 0;
-    border-radius: 100%;
   }
 
   .Home-text-container {
