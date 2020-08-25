@@ -156,19 +156,18 @@
   }
 
   .Home-img-container {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    overflow: hidden;
+    overflow: hidden;*/
     margin: 0 auto;
     width: 180px;
     height: 180px;
-    padding: 0;
+    /* padding: 0; */
   }
   .Home-img {
     width: 180px;
     height: 180px;
-    padding: 0;
-    border-radius: 100%;
+    /* padding: 0; */
   }
 
   .Home-text-container {
