@@ -72,17 +72,19 @@
 }
 
 .Home-img-container {
-  display: inline-block;
-  overflow: hidden;
-  border-radius: 100%;
   width: 300px;
   height: 300px;
+  display: inline-block;
+  overflow: hidden;
+  transform: translateZ(0);
+  mask-image: radial-gradient(white, black);
+  border-radius: 100%;
 }
 
 .Home-img {
   width: 300px;
   height: 300px;
-  transition: 1s;
+  transition: all 1s;
   display: block;
 }
 
