@@ -9,7 +9,7 @@ import item6 from "../img/item6.png";
 export default function Portfolio() {
   return (
     <div className="Portfolio-content">
-      <div className="Portfolio-item">
+      {/* <div className="Portfolio-item">
         <div className="Item-img-container">
           <img src={item6} alt="" className="Item-img" />
         </div>
@@ -45,7 +45,7 @@ export default function Portfolio() {
           <br />
           <br />
         </div>
-      </div>
+      </div> */}
 
       <div className="Portfolio-item">
         <div className="Item-img-container">
