@@ -9,7 +9,7 @@ import item6 from "../img/item6.png";
 export default function Portfolio() {
   return (
     <div className="Portfolio-content">
-      {/* <div className="Portfolio-item">
+      <div className="Portfolio-item">
         <div className="Item-img-container">
           <img src={item6} alt="" className="Item-img" />
         </div>
@@ -21,15 +21,14 @@ export default function Portfolio() {
           <span className="highlight-2">Technology</span>
           <br />
           <div>
-            HTML, CSS, JavaScript, React, JSS, Material UI, NodeJS, Express.js,
-            Google Analytics
+            HTML, CSS, JavaScript, React, JSS, Material UI, NodeJS, Google
+            Analytics
           </div>
           <br />
           <span className="highlight-2">Goal</span>
           <br />
           <div>
-            Create a website for a restaurant with support for 4 languages and
-            the ability to reserve tables
+            Create a multilingual restaurant website with table reservations
           </div>
           <br />
           <br />
@@ -45,7 +44,7 @@ export default function Portfolio() {
           <br />
           <br />
         </div>
-      </div> */}
+      </div>
 
       <div className="Portfolio-item">
         <div className="Item-img-container">
