@@ -28,7 +28,7 @@ export default function Portfolio() {
           <span className="highlight-2">Goal</span>
           <br />
           <div>
-            Create a multilingual restaurant website with table reservations
+            Create a multilingual restaurant website with table reservations.
           </div>
           <br />
           <br />
