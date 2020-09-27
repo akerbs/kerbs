@@ -62,57 +62,28 @@
       <p class="page-info">Loading...</p>
     </div>
     <script>
-      window.isUpdateAvailable = new Promise(function (resolve, reject) {
-        if (
-          "serviceWorker" in navigator &&
-          ["localhost", "127"].indexOf(location.hostname) === -1
-        ) {
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
           navigator.serviceWorker
-            .register("service-worker.js")
-            .then((reg) => {
-              reg.onupdatefound = () => {
-                const installingWorker = reg.installing;
-                installingWorker.onstatechange = () => {
-                  switch (installingWorker.state) {
-                    case "installed":
-                      if (navigator.serviceWorker.controller) {
-                        // new update available
-                        resolve(true);
-                      } else {
-                        // no update available
-                        resolve(false);
-                      }
-                      break;
-                  }
-                };
-              };
-            })
-            .catch((err) => console.error("[SW ERROR]", err));
-        }
-      });
-
-      // if ("serviceWorker" in navigator) {
-      //   window.addEventListener("load", function () {
-      //     navigator.serviceWorker
-      //       .register("worker.js")
-      //       .then(
-      //         function (registration) {
-      //           console.log(
-      //             "Worker registration successful",
-      //             registration.scope
-      //           );
-      //         },
-      //         function (err) {
-      //           console.log("Worker registration failed", err);
-      //         }
-      //       )
-      //       .catch(function (err) {
-      //         console.log(err);
-      //       });
-      //   });
-      // } else {
-      //   console.log("Service Worker is not supported by browser.");
-      // }
+            .register("worker.js")
+            .then(
+              function (registration) {
+                console.log(
+                  "Worker registration successful",
+                  registration.scope
+                );
+              },
+              function (err) {
+                console.log("Worker registration failed", err);
+              }
+            )
+            .catch(function (err) {
+              console.log(err);
+            });
+        });
+      } else {
+        console.log("Service Worker is not supported by browser.");
+      }
     </script>
     <!-- Yandex.Metrika counter -->
     <!-- <script type="text/javascript">
