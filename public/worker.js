@@ -17,16 +17,10 @@ self.addEventListener("fetch", (event) => {
   event.respondWith(
     caches.match(event.request).then(function (response) {
       // Cache hit - return response
-      if (!response) {
-        return fetch(event.request);
+      if (response) {
+        return response;
       }
-      const date = new Date(response.headers.get("date"));
-      // if cached file is older than 6 hours
-      if (Date.now() > date.getTime() + 1000 * 60 * 60 * 6) {
-        return fetch(event.request);
-      }
-
-      return response;
+      return fetch(event.request);
     })
   );
 });
