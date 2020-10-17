@@ -1,6 +1,6 @@
 {
-  "short_name": "Kerbs",
   "name": "Kerbs",
+  "short_name": "Kerbs",
   "icons": [
     {
       "src": "favicon.ico",
@@ -23,28 +23,3 @@
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
-
-
-
-
-{
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "/images/icons-512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
-
-
-
-  "Scope": "/",
-
-   "orientation": "portrait",
