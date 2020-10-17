@@ -33,7 +33,7 @@ export default function Portfolio() {
           <br />
           <br />
           <a
-            href="https://suliko3v.vercel.app/"
+            href="https://www.restaurant-suliko.de/"
             onClick="this.blur()"
             target="_blank"
             rel="noopener noreferrer"
