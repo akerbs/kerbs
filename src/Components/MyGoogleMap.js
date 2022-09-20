@@ -7,7 +7,7 @@ const MyGoogleMap = () => {
     <div id="map" className="mapWrapper" maxWidth="lg">
       <iframe
         className="map"
-        src="https://www.google.com/maps/d/u/0/embed?mid=1yy2u8ZTEVVOSrLieye5jWRtbyCdDorc_"
+        src="https://www.google.com/maps/d/u/0/embed?mid=1Aacfo7BKRRoVYiq7xl16vJmUpCNTK88"
       ></iframe>
     </div>
   );
